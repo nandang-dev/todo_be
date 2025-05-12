@@ -4,8 +4,8 @@
   "description": "Backend API untuk Todo List dengan Node.js dan Prisma",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node init && node src/index.js",
+    "dev": "node init && nodemon src/index.js"
   },
   "dependencies": {
     "@prisma/client": "^5.10.0",
